@@ -1,0 +1,15 @@
+{
+    "name" : "door",
+    "author" : "jonajames",
+    "description": "Default doors and trapdoors.",
+    "enabled" : true,
+    "priority" : 500,
+    "table" : {
+        "":["mcl_fences:fence_gate",15,"@facing2facedir"],
+        "":["mcl_fences:fence_gate",15,"@facing2facedir"],
+        "":["doors:hidden",15,"@facing2facedir"],
+        "?door":["@door2ab",15,"@door2facedir"],
+        "iron_trapdoor":["mcl_doors:iron_trapdoor",15,"@facing2facedir"],
+        "?trapdoor":["mcl_doors:trapdoor",15,"@facing2facedir"]
+    }
+}

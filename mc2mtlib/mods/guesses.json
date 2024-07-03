@@ -1,0 +1,21 @@
+{
+  "name" : "guesses",
+  "author" : "jonajames",
+  "description": "Tries to match blocks of different shapes and material",
+  "enabled" : true,
+  "priority" : 999,
+  "table" : {
+    "?stairs" : ["@shape2stair",15,"@stair2facedir"],
+    "?block" : ["@id2material",0,0],
+    "?stained_glass_pane" : ["xpanes:pane_flat",15,"@cardinal2facedir"],
+    "?stained_glass" : ["mcl_core:glass",15,0],
+    "?log" : ["mcl_core:tree",0,0],
+    "?planks" :["mcl_core:wood",0,0],
+    "?shulker_box" : ["mcl_chests:chest",15,"@facing2facedir"],
+    "?slab" : ["@material2slab",15,"@type2facedir"],
+    "?wall" : ["mcl_walls:cobble",15,0],
+    "?wall_sign" : ["mcl_signs:wall_sign",15,"@facing2wallmounted"],
+    "?wood" : ["mcl_core:tree",0,0],
+    "?candle" : ["mcl_torches:torch",0,1]
+  }
+}
