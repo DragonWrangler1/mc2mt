@@ -1,14 +1,6 @@
 # mc2mt
 Convert maps from Minecraft to Minetest
 
-## Dependencies
-
-Anvil-Parser library is used to decode nbt format 
-
-`pip install anvil-parser` 
-
-https://github.com/matcool/anvil-parser
-
 ## Usage
 
 ```
